@@ -41,7 +41,7 @@ if __name__ == '__main__':
     # print(add1)
     # jianfa1 = jianfa(9, 5)
     # print(jianfa1)
-    str_demo()
+    # str_demo()
     print("--------")
     float_demo()
     pass
