@@ -15,6 +15,33 @@ def for_demo():
             print("%sX%s=%s"%(i,j,i*j),end=' ')
         print()
     pass
+
+def int_demo(a,b):
+    if a>b:
+        b=b+1
+        sum=0
+        for i in range(b,a):
+            i%2 == 0
+            sum+=i
+            print(sum)
+    elif a<b:
+        a=a+1
+        for i in range(a,b):
+            i%2==0
+            sum+=i
+            print(sum)
+    else:
+        print("两数相等")
+
+
+    pass
+
 if __name__ == '__main__':
-    if_demo()
+
+    int_demo(5,10)
+
+    # 生成迭代器
+
+
+
     pass
